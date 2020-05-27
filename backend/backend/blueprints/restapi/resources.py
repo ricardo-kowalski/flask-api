@@ -2,7 +2,7 @@
 from flask import abort, jsonify
 from flask_restful import Resource
 
-from pydaria.models import Product
+from backend.models import Product
 
 
 class ProductResource(Resource):

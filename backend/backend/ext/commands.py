@@ -1,7 +1,7 @@
 import click
-from pydaria.ext.database import db
-from pydaria.ext.auth import create_user
-from pydaria.models import Product
+from backend.ext.database import db
+from backend.ext.auth import create_user
+from backend.models import Product
 
 
 def create_db():
